@@ -1,0 +1,51 @@
+==============================
+RESELL SOURCE — SETUP GUIDE
+==============================
+
+1️⃣ Unzip or open your folder
+--------------------------------
+Your folder structure should look like this:
+resell-source/
+│
+├── index.html
+├── products.html
+├── thank-you-1.html ... thank-you-6.html
+│
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── assets/
+│   ├── logo.png
+│   ├── bundle1.png
+│   ├── bundle2.png
+│   ├── northface.png
+│   ├── geedup.png
+│   ├── luxury.png
+│   └── airpods.png
+├── downloads/
+│   ├── bundle1.pdf
+│   ├── bundle2.pdf
+│   ├── northface.pdf
+│   ├── geedup.pdf
+│   ├── luxury.pdf
+│   └── airpods.pdf
+└── setup-guide.txt
+
+2️⃣ Add your product images
+--------------------------------
+In the /assets folder:
+- Place your 6 Apple-style product images (PNG or JPG).
+- Keep the file names exactly as listed above.
+
+3️⃣ Add your PDF instruction files
+--------------------------------
+In the /downloads folder:
+- Drop in each PDF that matches your thank-you pages:
+  bundle1.pdf, bundle2.pdf, northface.pdf, geedup.pdf, luxury.pdf, airpods.pdf
+
+4️⃣ Check your Stripe links
+--------------------------------
+- Open products.html with Notepad.
+- Each "Buy Now" button already links to your Stripe Checkout.
+- Replace them anytime if y
